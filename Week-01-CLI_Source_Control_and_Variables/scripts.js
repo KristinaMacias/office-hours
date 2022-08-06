@@ -16,6 +16,10 @@
 //What is function scope?
 //When a variable is declared inside a function, it is only accessible within that function and cannot be used outside that function.
 
+console.log(`
+Live-Coding 8-5-22
+
+`);
 let carMake; //creating a variable for make of car
 let carModel; //creating a variable for model of car
 let carYear; //creating a variable for year of car
@@ -75,3 +79,64 @@ let myFavoriteFood = "sushi";
 console.log(
   `My name is ${name} and I am ${myAge} years old. My favorite food is ${myFavoriteFood}`
 );
+
+//Office Hours 08-05-2022
+console.log(`
+Office hours 8-5-22
+
+`);
+
+//operators
+//operators are used to perform operations on variables.
+//arithmetic operators
+let x = 100;
+let y = 50;
+
+//+ addition
+console.log(`Addition operation when x = 100 and y = 50: ${x + y}`); //expected 150
+
+//- subtraction
+console.log(`Subtraction operation when x = 100 and y = 50: ${x - y}`); //expected 50
+
+//* multiplication
+console.log(`Multiplication operation when x = 100 and y = 50: ${x * y}`); //expected 5000
+
+/// division
+console.log(`Division operation when x = 100 and y = 50: ${x / y}`); //expected 2
+
+//% modulus - remainder
+console.log(`Modulus operation when x = 100 and y = 50: ${x % y}`); //expected 0
+//example above - remainder of 100 divided by 50 is 0 because 100 is evenly divisible by 50
+
+//** exponent
+console.log(`Exponent operation when x = 100 and y = 50 ${x ** y}`); //expected 1000000
+
+//+= addition assignment
+x += y; //x = x + y
+console.log(x); //expected 150
+
+//-= subtraction assignment
+x -= y; //x = x - y
+console.log(x); //expected 50
+
+//*= multiplication assignment
+x *= y; //x = x * y
+console.log(x); //expected 5000
+
+///= division assignment
+x /= y; //x = x / y
+console.log(x); //expected 2
+
+//%= modulus assignment
+x %= y; //x = x % y
+console.log(x); //expected 0
+
+//**= exponent assignment
+x **= y; //x = x ** y
+console.log(x); //expected 1000000
+
+let a = 10;
+let b = 20;
+
+console.log(a + b);
+console.log(a - b);

@@ -45,3 +45,56 @@ switch (true) {
 }
 
 console.log(letterGrade);
+
+//example
+
+let accountBalance = 200;
+let rent = 1000;
+
+let balanceAfterRent = accountBalance - rent;
+console.log(`Remaining balance after rent: ${balanceAfterRent}`);
+
+if (accountBalance >= rent) {
+  //what we want to happen if the condition is met
+  console.log("I am going to pay rent today");
+} else if (accountBalance < rent) {
+  //what we want to happen if the first condition is not true, but this one is
+  console.log("I will pick up some more shifts");
+}
+
+// create an if else statement that evaluates:
+// if it is hot ouside && we have $5, then we will buy a soft drink
+
+// if (isHotOutside && moneyInPocket >= 5) {
+//   //is hot outside and money in pocket?
+//   console.log("It is a hot day and I have enough money to buy a soft drink");
+// } else {
+//   console.log("I am not going to buy a soft drink today");
+// }
+
+//example below has an additonal condition for when it's not hot outside, but DO have enough money
+let isHotOutside = false; //boolean
+let moneyInPocket = 1; //number
+
+console.log("another example");
+if (isHotOutside && moneyInPocket >= 5) {
+  //evaluates if its hot outside and money greater than or equal to 5
+  console.log(
+    "It is a hot day and I have money in my pocket. I will buy a soft drink"
+  );
+} else if (!isHotOutside && moneyInPocket >= 5) {
+  //evaluates its not hot outside but money IS greater than or equal to 5
+  //! means NOT, so above is not hot outside and money is greater than or equal to 5
+  console.log(
+    "I have enough money, but it is not hot outside. I will not buy a soft drink"
+  );
+} else if (isHotOutside && moneyInPocket < 5) {
+  //evaluates if its hot outside and money is less than 5 ****** this is an update from office hours
+  console.log(
+    "It is hot outside, but I need some more money in my pocket. I will not buy a soft drink"
+  );
+} else {
+  console.log(
+    "It is hot, but I don't have enough money in my pocket. I am not going to buy a soft drink today"
+  );
+}
