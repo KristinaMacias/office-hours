@@ -47,7 +47,6 @@ switch (true) {
 console.log(letterGrade);
 
 //example
-
 let accountBalance = 200;
 let rent = 1000;
 
@@ -62,19 +61,20 @@ if (accountBalance >= rent) {
   console.log("I will pick up some more shifts");
 }
 
+
 // create an if else statement that evaluates:
 // if it is hot ouside && we have $5, then we will buy a soft drink
 
 // if (isHotOutside && moneyInPocket >= 5) {
-//   //is hot outside and money in pocket?
-//   console.log("It is a hot day and I have enough money to buy a soft drink");
-// } else {
-//   console.log("I am not going to buy a soft drink today");
-// }
-
+  //   //is hot outside and money in pocket?
+  //   console.log("It is a hot day and I have enough money to buy a soft drink");
+  // } else {
+    //   console.log("I am not going to buy a soft drink today");
+    // }
+    
 //example below has an additonal condition for when it's not hot outside, but DO have enough money
 let isHotOutside = false; //boolean
-let moneyInPocket = 1; //number
+let moneyInPocket = 12; //number
 
 console.log("another example");
 if (isHotOutside && moneyInPocket >= 5) {
@@ -94,7 +94,40 @@ if (isHotOutside && moneyInPocket >= 5) {
     "It is hot outside, but I need some more money in my pocket. I will not buy a soft drink"
   );
 } else {
+  //evaluates if its not hot outside and money is less than 5
   console.log(
     "It is hot, but I don't have enough money in my pocket. I am not going to buy a soft drink today"
   );
 }
+
+let y = 10;
+
+console.log((y += 2)); //number = number + 10
+
+let numberGrade = 80;
+if (numberGrade >= 90) {
+  letterGrade = "A";
+} else if (numberGrade >= 80) {
+  letterGrade = "B";
+} else if (numberGrade >= 70) {
+  letterGrade = "C";
+} else if (numberGrade >= 60) {
+  letterGrade = "D";
+} else {
+  letterGrade = "F";
+}
+console.log(letterGrade);
+
+//for loop
+// a for loop is a loop that repeats a block of code a certain number of times
+
+//while loop
+//a while loop is a loop that repeats a block of code while a certain condition is true
+
+//do while loop
+//a do while loop is a loop that repeats a block of code at least once, even if the condition is false
+
+//for/in
+//for/in loops through properties of an object
+
+//for/of - loops through the values of an iterable object
