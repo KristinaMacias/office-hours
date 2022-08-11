@@ -121,6 +121,9 @@ console.log(letterGrade);
 //for loop
 // a for loop is a loop that repeats a block of code a certain number of times
 
+for(let i = 0; i < 10; i++) {
+  console.log(i)
+}
 //while loop
 //a while loop is a loop that repeats a block of code while a certain condition is true
 
