@@ -1,0 +1,22 @@
+{
+  "name": "promineo_tech",
+  "version": "1.0.0",
+  "description": "Welcome to office hours and live coding notes! I have it organized by which week it's covered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristinaMacias/office-hours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristinaMacias/office-hours/issues"
+  },
+  "homepage": "https://github.com/KristinaMacias/office-hours#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

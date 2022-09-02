@@ -325,3 +325,10 @@ let dog = 'Ollie'
 console.log(`I have a dog named ${dog} and i have a cat named ${cat}.`)
 
 console.log('I have dog named ' + dog + ' and I have a cat named ' + cat + '.')
+
+
+function myFunction(a, b) {
+    console.log(a + b)
+}
+
+myFunction(10, 20)
