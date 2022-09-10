@@ -74,10 +74,12 @@ class Deck {
         //put logic or implementation here
         //how do i split an array of numbers in half? (slice, splice?, pop)
         //how do i push that split array to each players hand
-        player1.hand.push(this.deck.slice(0, 26));
-        //for loop
-        console.log("printing player1 hand. i still need to create player2", player1.hand)
+        player1.hand = this.deck.slice(0, 26);//do this
+        player2.hand.push(this.deck.slice(26, 52));//don't do this
 
+
+        console.log(player1.hand[0])
+        console.log(player2.hand[0][0]);//don't do this!
     }
 }
 
@@ -90,4 +92,4 @@ freshDeck.dealDeck();
 freshDeck.shuffle();
 
 
-//class for game
+//claI 
